@@ -7,6 +7,7 @@ public class ClassDescriptor {
     private String name;
     private int sizeInBytes;
     private File classFile;
+    
     private ClassDescriptor superClass;
     private ArrayList<ClassDescriptor> subClasses;
     public ClassDescriptor(){
